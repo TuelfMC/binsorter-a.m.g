@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-    --color-fondo: #E6E6E6;
+    --color-contenedor: #E6E6E6;
     --color-importante: #404E3B;
     --color-parrafo: #BAC8B1;
     --color-primario: #7B9669;
-    --color-contenedor: #6C8480;
+    --color-fondo: #6C8480;
 }

@@ -3,5 +3,8 @@ import PrincipalHeader from './components/PrincipalHeader.vue';
 </script>
 
 <template>
-  <PrincipalHeader />
+  <div class="min-h-screen flex flex-col bg-fondo">
+    <PrincipalHeader />
+    <RouterView />
+  </div>
 </template>
