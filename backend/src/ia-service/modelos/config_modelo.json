@@ -1,0 +1,17 @@
+{
+  "version_modelo": "v0-dataset-publico",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "tamano_entrada": [
+    224,
+    224
+  ],
+  "clases": {
+    "0": "no_botella",
+    "1": "botella_plastica"
+  },
+  "salida": "probabilidad de botella_plastica",
+  "umbral_botella": 0.85,
+  "umbral_no_botella": 0.15,
+  "nota": "Umbrales provisionales; calibrar con mas datos"
+}
