@@ -17,7 +17,7 @@ function iniciarSesion() {
   // Por ahora solo diseño: tu compañero conectará la validación real
   error.value = ''
   estado.sesionIniciada = true
-  router.push('/HomeView.vue')
+  router.push('/home')
 }
 </script>
 

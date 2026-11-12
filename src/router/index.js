@@ -5,7 +5,7 @@ import RegisterView from '../views/RegisterView.vue'
 import EscanerView from '../views/EscanerView.vue'
 
 const routes = [
-  { path: '/', component: HomeView },
+  { path: '/home', component: HomeView },
   { path: '/login', component: LoginView },
   { path: '/register', component: RegisterView },
     { path: '/escaner', component: EscanerView },

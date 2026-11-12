@@ -26,7 +26,7 @@ function registrar(){
         error.value = 'La contraseña debe tener almenos una mayuscula'
         return
     }
-    if (!/[0-9]/.test){
+    if (!/[0-9]/.test(password.value)){
         error.value = 'La contraseña debe tener almenos un numero'
         return
     }
@@ -36,7 +36,7 @@ function registrar(){
     }
     error.value = ''
     estado.sesionIniciada = true
-    router.push('/HomeView.vue')
+    router.push('/HomeView')
 }
 
 </script>

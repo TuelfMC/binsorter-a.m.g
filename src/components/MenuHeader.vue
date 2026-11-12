@@ -4,8 +4,8 @@
             <img src="/logo.svg" alt="Logo BinSorter" class="h-24 w-24">
         </div>
         <nav>
-            <RouterLink to="/HomeView.vue" class="p-1 text-sm">Inicio</RouterLink>
-            <RouterLink to="/" class="p-1 text-sm">Escaner</RouterLink>
+            <RouterLink to="/home" class="p-1 text-sm">Inicio</RouterLink>
+            <RouterLink to="/escaner" class="p-1 text-sm">Escaner</RouterLink>
             <RouterLink to="/" class="p-1 text-sm">Perfil</RouterLink>
         </nav>
     </header>
