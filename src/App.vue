@@ -2,6 +2,7 @@
 import { estado } from './estado'
 import PrincipalHeader from './components/PrincipalHeader.vue'
 import MenuHeader from './components/MenuHeader.vue'
+import PrincipalFooter from './components/PrincipalFooter.vue'
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import MenuHeader from './components/MenuHeader.vue'
     <MenuHeader v-if="estado.sesionIniciada" />
     <PrincipalHeader v-else />
     <RouterView />
+    <PrincipalFooter/>
   </div>
 </template>
