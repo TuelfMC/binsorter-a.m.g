@@ -5,7 +5,7 @@
         </div>
         <nav>
             <RouterLink to="/login" class="p-1 text-sm">Iniciar Sesion</RouterLink>
-            <RouterLink to="/" class="p-1 text-sm">Registrarse</RouterLink>
+            <RouterLink to="/register" class="p-1 text-sm">Registrarse</RouterLink>
         </nav>
     </header>
 </template>
